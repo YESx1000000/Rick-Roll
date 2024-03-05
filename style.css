@@ -10,11 +10,20 @@ body {
   text-align: center;
 }
 
+p {
+  text-align: justify;
+}
+
 h1 {
   color: white;
   text-align: center;
   font-family: "Madimi One", sans-serif;
   margin-bottom: 0%;
+}
+
+h2 {
+  color: white;
+  font-family: "Madimi One", sans-serif;
 }
 
 h6 {
@@ -59,6 +68,7 @@ video {
   margin-right: auto;
   display: inline-block;
 }
+
 .button {
   background-color: #7c0e34;
   border: 5px solid #44081d;
@@ -71,7 +81,7 @@ video {
   font-family: "Madimi One", sans-serif;
   width: 60px;
   height: 20px;
-  margin:7px;
+  margin: 7px;
 }
 
 .button:hover {
@@ -89,9 +99,28 @@ video {
   text-decoration: none;
   display: inline-block;
   font-family: "Madimi One", sans-serif;
-  margin:7px;
+  margin: 7px;
 }
 
 .fun:hover {
-background-color: #ba1750;
-border: 5px solid #760f33;
+  background-color: #ba1750;
+  border: 5px solid #760f33;
+}
+
+  footer {
+    background-color: #7c0e34;
+    border-top: 5px solid #44081d;
+    padding-top: 5px;
+    position: sticky;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .game {
+    margin: 20px;
+    margin-left: 40;
+    margin-right: 40;
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+  }

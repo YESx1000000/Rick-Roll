@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-  
+
 <script>
   function rickRoll() {
-  const originalImage = document.querySelector('#rick');
-  const clonedImage = originalImage.cloneNode(true);
- document.getElementById("thing").appendChild(clonedImage);
+    const originalImage = document.querySelector('#rick');
+    const clonedImage = originalImage.cloneNode(true);
+    document.getElementById("thing").appendChild(clonedImage);
+    const bre = document.createElement('br');
+    document.getElementById("thing").appendChild(bre);
   }
 </script>
 
@@ -27,11 +29,11 @@
     <a class="button" href="index.html">Home</a>
     <a class="button" href="rick.roll.html">Rick Roll</a>
     <a class="button" href="Games.html">Games</a>
-    <a class="button">Empty</a>
+    <a class="button" href="Settings.html">Settings</a>
   </div>
   <video autoplay src="Rick.Roll.mp4" id="rick" class="rick">Rick</video>
   <div id="thing">
-    
+
   </div>
   <br>
   <button id="button" class="fun" type="button" onclick="rickRoll()">More??</button>
