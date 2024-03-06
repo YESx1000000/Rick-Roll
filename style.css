@@ -42,6 +42,27 @@ header {
   position: sticky;
   width: 100%;
   margin: 0px;
+  
+}
+
+.head {
+  background-color: #7c0e34;
+  border-bottom: 5px solid #44081d;
+  position: sticky;
+  width: 100%;
+  margin: 0px;
+  border-top: 5px solid #44081d;
+  padding-top: 0px;
+}
+
+table {
+  text-align: left;
+  display: inline-block;
+  font-size: 13pt;
+}
+
+td {
+  padding: 10px;
 }
 
 .item {
