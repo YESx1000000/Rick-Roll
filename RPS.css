@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #e9c8d3;
+}
+
+body {
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Madimi One", sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  color: white;
+  Padding: 10px;
+  border: 5px solid #44081d;
+  background-color: #7c0e34;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 0%;
+  font-size: 3.5rem;
+}
+
+.choices {
+  margin-bottom: 30px;
+  
+}
+
+.choices button {
+  font-size: 4rem;
+  min-width: 100px;
+  margin: 20px 10px;
+  border-radius: 20px;
+  background-color: #7c0e34;
+  border: 5px solid #44081d;
+  color: white;
+  font-family: "Madimi One", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choices button:hover {
+  background-color: #ba1750;
+  border: 5px solid #760f33;
+}
+
+#playerDisplay, #computerDisplay {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+#resultDisplay {
+  font-size: 3rem;
+  margin: 30px 0;
+  color: white;
+  text-align: center;
+}
+
+.results {
+  Padding: 10px;
+  border: 5px solid #44081d;
+  background-color: #7c0e34;
+  border-radius: 20px;
+}

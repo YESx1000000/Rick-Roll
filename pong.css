@@ -81,7 +81,7 @@ body {
     border-radius: 50%; 
     position: fixed; 
     top: calc(50% - 15px); 
-    left: calc(50% - 15px); 
+    left: calc(50% - 15px);
 } 
 
 .ball_effect { 
@@ -89,7 +89,7 @@ body {
     width: 100%; 
     border-radius: 100px; 
     border: 5px solid #44081d;
-    background-color: #7c0e34;  
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/88/Danny_DeVito_");
 } 
 
 @keyframes spinBall { 

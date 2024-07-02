@@ -145,3 +145,18 @@ video {
     display: inline-block;
     width: 80%;
   }
+
+  ul {
+    text-align: left;
+    display: inline-block;
+    font-size: 13pt;
+  }
+
+.link {
+  color: white;
+  text-align: center;
+  font-family: "Madimi One", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px
+  
+}
